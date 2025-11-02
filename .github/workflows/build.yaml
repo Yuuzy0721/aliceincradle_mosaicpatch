@@ -1,10 +1,11 @@
 name: Alice In Cradle Mosaic Patch
 
 on:
-  push:
+  release:
+    types: [published]
 
 jobs:
-  build-and-test:
+  build-and-patch:
     runs-on: windows-latest
 
     steps:
@@ -23,7 +24,6 @@ jobs:
           
       - name: Patch Assembly-CSharp.dll
         run: |
-          
           $ildasm = "C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools\ildasm.exe"
           $ilasm = "C:\Windows\Microsoft.NET\Framework64\v4.0.30319\ilasm.exe"
 
@@ -95,9 +95,9 @@ jobs:
             & $ilasm ${{ github.workspace }}\dump_mod.IL /DLL /OUTPUT=${{ github.workspace }}\output\Assembly-CSharp.dll
           }
 
-      - name: Upload Artifact
-        uses: actions/upload-artifact@v4
+      - name: Upload to Release
+        uses: softprops/action-gh-release@v1
         with:
-          name: Mosaic Patched DLL
-          path: output\Assembly-CSharp.dll
-          
+          files: output/Assembly-CSharp.dll
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
