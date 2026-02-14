@@ -38,6 +38,8 @@
 
 [@绝对零度](https://tieba.baidu.com/p/8633401091)
 
+[@ghitori](https://github.com/ghitori)
+
 [Visual Studio 2022](https://visualstudio.microsoft.com/zh-hans/vs/)
 
 ## 许可证
