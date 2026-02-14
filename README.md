@@ -30,7 +30,7 @@
 -->
 ## 诺艾儿的贴心提醒
 - 不同版本的 **Assembly-CSharp.dll** 不可以混合使用，否则可能导致游戏崩溃哦！
-- 由于本人([Yuuzy0721](https://github.com/Yuuzy0721))的时间及精力有限，可能补丁会更新不及时 ~~，且你提Issue/Pr也没用，慢慢等吧^^~~，按照[原项目](https://github.com/ghitori/aliceincradle_mosaicpatch)的方法自行制作补丁
+- 由于本人([Yuuzy0721](https://github.com/Yuuzy0721))的时间及精力有限，可能补丁会更新不及时 ~~，且你提Issue/Pr也没用，慢慢等吧^^~~，可按照[原项目](https://github.com/ghitori/aliceincradle_mosaicpatch)的方法自行制作补丁
 <!-- - 目前已知可用版本为：**0.26c2**。如果失效，欢迎 Issue/Pr ，让我们一起完成诺艾儿的愿望呀！-->
 
 ## 诺艾儿的获奖感言
