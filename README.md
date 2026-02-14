@@ -9,7 +9,7 @@
 
 ~~无需配置任何环境/下载任何反编译软件，只要你能访问Github，你就能随时随地的满足诺艾儿的愿望(~~ ~~雾~~ ~~)~~
 
-本项目fork自[https://github.com/ghitori/aliceincradle_mosaicpatch]，在原项目的基础上修改了build.yaml，补丁制作完成后直接推到releases方便没有github账号的人下载^^
+本项目fork自<https://github.com/ghitori/aliceincradle_mosaicpatch>，在原项目的基础上修改了build.yaml，补丁制作完成后直接推到releases方便没有github账号的人下载^^
 
 ## 诺艾儿的食用方法
 
